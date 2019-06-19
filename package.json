@@ -1,0 +1,18 @@
+{
+  "name": "actum-task-api",
+  "version": "1.0.0",
+  "description": "API for actum task web client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maros Smrek",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.17.6",
+    "objection": "^1.6.9",
+    "pg": "^7.11.0"
+  }
+}
