@@ -10,8 +10,8 @@ app.use(cors());
 
 //endpoints
 app.get('/', async (req, res) => {
+    console.log('here /')
     let allItems = await Cart.getAllItems();
-    console.log(allItems)
     res.send(allItems).end();
 });
 
