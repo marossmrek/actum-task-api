@@ -11,6 +11,7 @@ app.use(cors());
 //endpoints
 app.get('/', async (req, res) => {
     let allItems = await Cart.getAllItems();
+    console.log(allItems)
     res.send(allItems).end();
 });
 
