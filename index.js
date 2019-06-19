@@ -3,7 +3,7 @@ const cors = require('cors');
 const { Cart } = require('./models/cart');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT;
 
 //middleware
 app.use(cors());
